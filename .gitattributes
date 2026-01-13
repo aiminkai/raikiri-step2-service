@@ -1,0 +1,15 @@
+# Maven wrapper — должен использовать LF (Unix-style line endings)
+mvnw text eol=lf
+
+# Windows-версия — должна использовать CRLF
+mvnw.cmd text eol=crlf
+
+# Все shell-скрипты — LF
+*.sh text eol=lf
+
+# Все bat/cmd — CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Остальные текстовые файлы — Git сам определяет, но нормализует при коммите
+* text=auto
